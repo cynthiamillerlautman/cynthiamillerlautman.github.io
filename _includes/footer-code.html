@@ -1,0 +1,34 @@
+
+{% if page.masonry %}
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+{% endif %}
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+      //Cycles through each of the links in the nav
+      $('.nav-item a').each(function() {
+          //Compares the href of the nav a element to the URL page
+
+          if ($(this).attr('href') == window.location.pathname) {
+              //If they match, add class name to the parent li element
+              $(this).parent().addClass('active');
+          }
+
+});
+});
+</script>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Josephin Sans', 'Raleway','Monserrat:400,700' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  {% if jekyll.environment == 'production' %}
+  {% include ga.html %}
+  {% endif %}
+  {% include header.html %}
+
+    
+
+</head>
+<body>
+  {% include nav.html %}
+
+
+  {{content}}
+
+  {% include footer.html %}
+  {% include footer-code.html %}
+  {% include schema-markup.html %}
+
+</body>
+</html>

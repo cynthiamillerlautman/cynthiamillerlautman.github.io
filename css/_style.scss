@@ -1,0 +1,115 @@
+//fonts
+h1, h2, h3, h4, h5, .navbar-brand, .nav-link {
+  font-family: 'Raleway', sans-serif!important;
+}
+h1.banner-text, .page-title {
+  font-family:'Josefin Sans', sans-serif!important;
+  font-size: 3.5rem;
+}
+.sub-title {
+  font-size: 1.2rem;
+}
+
+body, p, nav {
+  font-family: 'Raleway', sans-serif!important;
+  font-size: 20px;
+}
+
+.purple {
+  background-color: purple;
+}
+//home
+.title-banner {
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.no-webp .home-banner {
+  background-image: url('/img/jenga.jpg');
+  min-height:400px;
+}
+
+.webp .home-banner {
+  background-image: url('/img/jenga.webp');
+  min-height:400px;
+}
+.no-webp .jenga-banner {
+  background-image: url('/img/jenga.jpg');
+  min-height:200px;
+}
+
+.webp .jenga-banner {
+  background-image: url('/img/jenga.webp');
+  min-height:200px;
+}
+
+.no-webp .sensory-banner {
+  background-image: url('/img/smelling-flower.jpg');
+  min-height:200px;
+}
+
+.webp .sensory-banner {
+  background-image: url('/img/smelling-flower.webp');
+  min-height:200px;
+}
+
+.no-webp .adl-banner{
+  background-image: url('/img/shoes.jpg');
+  min-height:400px;
+}
+
+.webp .adl-banner{
+  background-image: url('/img/shoes.webp');
+  min-height:400px;
+}
+.no-webp .sensory-room-banner{
+  background-image: url('/img/sensory-room-banner.png');
+  min-height:400px;
+}
+
+.webp .sensory-room-banner{
+  background-image: url('/img/sensory-room-banner.webp');
+  min-height:400px;
+}
+
+.no-webp .visual-perception-banner{
+  background-image: url('/img/visual-perception-banner.jpg');
+  min-height:400px;
+}
+
+.webp .visual-perception-banner{
+  background-image: url('/img/visual-perception-banner.webp');
+  min-height:400px;
+}
+
+.no-webp .collaboration-banner{
+  background-image: url('/img/collaboration-banner.jpg');
+  min-height:400px;
+}
+.webp .collaboration-banner{
+  background-image: url('/img/collaboration-banner.webp');
+  min-height:400px;
+}
+.no-webp .behaviour-banner{
+  background-image: url('/img/behaviour-banner.jpg');
+  min-height:400px;
+}
+
+.webp .behaviour-banner{
+  background-image: url('/img/behaviour-banner.webp');
+  min-height:400px;
+}
+.no-webp .mentoring-banner{
+  background-image: url('/img/mentoring-banner.jpg');
+  min-height:400px;
+}
+
+.webp .mentoring-banner{
+  background-image: url('/img/mentoring-banner.webp');
+  min-height:400px;
+}
+.category-card{
+  width:20rem;
+}
