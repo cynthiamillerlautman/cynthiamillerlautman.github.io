@@ -11,3 +11,5 @@ fields:
 - type: datetime
   name: date
   label: Date
+pages:
+- _posts/test-post.md
